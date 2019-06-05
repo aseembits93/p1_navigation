@@ -4,8 +4,6 @@
 
 For this project, you will train an agent to navigate (and collect bananas!) in a large, square world.  
 
-![Trained Agent][image1]
-
 A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana.  Thus, the goal of your agent is to collect as many yellow bananas as possible while avoiding blue bananas.  
 
 The state space has 37 dimensions and contains the agent's velocity, along with ray-based perception of objects around agent's forward direction.  Given this information, the agent has to learn how to best select actions.  Four discrete actions are available, corresponding to:
@@ -30,6 +28,10 @@ The task is episodic, and in order to solve the environment, your agent must get
 
 2. Place the file in the DRLND GitHub repository, in the `p1_navigation/` folder, and unzip (or decompress) the file.
 
+3. Setup your Anaconda Environment as mentioned [here](https://github.com/udacity/deep-reinforcement-learning)
+
+4. ```python train_banana.py```
+
 ### Solution
 
 1. The vanilla DQN agent with default hyperparameters solves the environment in around 371 episodes.
@@ -40,7 +42,8 @@ The task is episodic, and in order to solve the environment, your agent must get
 2. Role of BatchNorm Layer - Did not help much with convergence.
 3. Role of Residual Connection - Again, did not help much with convergence.
 
-## Conclusion 
+### Conclusion   
+
 Simpler neural network architectures tend to have better convergence properties.
 
 ### Experiments TODO
