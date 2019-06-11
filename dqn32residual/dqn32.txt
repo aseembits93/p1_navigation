@@ -1,0 +1,20 @@
+QNetworkResidual(
+  (fc1): Linear(in_features=37, out_features=32, bias=True)
+  (fc2): Linear(in_features=32, out_features=32, bias=True)
+  (fc3): Linear(in_features=32, out_features=32, bias=True)
+  (fc4): Linear(in_features=32, out_features=4, bias=True)
+)
+QNetworkResidual(
+  (fc1): Linear(in_features=37, out_features=32, bias=True)
+  (fc2): Linear(in_features=32, out_features=32, bias=True)
+  (fc3): Linear(in_features=32, out_features=32, bias=True)
+  (fc4): Linear(in_features=32, out_features=4, bias=True)
+)
+Episode 100	Average Score: 0.555
+Episode 200	Average Score: 4.42
+Episode 300	Average Score: 7.01
+Episode 400	Average Score: 9.64
+Episode 500	Average Score: 12.30
+Episode 523	Average Score: 13.00
+Environment solved in 423 episodes!	Average Score: 13.00
+

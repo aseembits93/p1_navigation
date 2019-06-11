@@ -8,7 +8,6 @@ import torch
 from dqn_agent import Agent
 from unityagents import UnityEnvironment
 
-#%matplotlib inline
 env = UnityEnvironment(file_name="./Banana_Linux/Banana.x86_64")
 # get the default brain
 brain_name = env.brain_names[0]
